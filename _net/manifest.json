@@ -1,0 +1,20 @@
+{
+  "corpus_id": "C-B64CA3EF6BDC",
+  "files": {
+    "BOOT.md": "652d133579c76215763b61d2c74ede2b46770f8ad886c8f8e7d9f033ac9854e5",
+    "_log/revisions.html": "eba0a6f742f7799579e874666a4385a111c6e926f7adf17b72f2a0129e613211",
+    "_log/superseded/README.txt": "3744dc0422a486848dbf1a0fc1e196725d8fce17f5dbeacb6ba4e94924484eb3",
+    "_net/_index.html": "40c5ef7f4c1769372d3250c400ef77c410576c6255d012f9bb0c2d8e096074b7",
+    "_net/catalog.json": "72f8050983ef63b0ad1dd14d0e02fba0ab845705e49d2a9dbf0f8a40230d7294",
+    "_net/corpus.json": "48ae35a123e81e898af3ad29b2005f1f5bec09c420280fbb4d155025dbe13eeb",
+    "_net/lineage.json": "8977d74ebb775b60ce93b771563e538202227a6ae6471595001f32fa6e579b8f",
+    "_net/vocabulary.json": "aa2baf733aa63a27b8a914cac616a4d4180d2f2cbe8ed8be39981a87267cd3e5",
+    "index.html": "ac0899728e9196c27e9f0448641bcfbc662f510638785239236b1f990859f114",
+    "spec/_index.html": "9101e383db0f047f710284c3da1adda23d496a5455276d9f9fa379dd51c9777f",
+    "spec/network.html": "b29d8cb9646c619455aad3920df840ee1df9ed37f8bee92c1c0e1b683ebc9b37",
+    "spec/seed.html": "07d159cacae13cb5a14baa2c0d028e32bbb5f81c67518bdf34336cc4960d2e8c",
+    "spec/validation.html": "0eb4f5967ab28beb4d75795eb9438c25903d56dd47422b2df62145ef66a2e10f",
+    "style.css": "3f55a3c3e4c367e52b2ee038aa0a43020394a2e1751f1257e8ede5bbdf6bcfe0"
+  },
+  "manifest_sha256": "cccd1db308b54a3968907bb92534c995d8bc1c50252250b0d583c5478d58632a"
+}

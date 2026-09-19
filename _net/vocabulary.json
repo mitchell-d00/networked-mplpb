@@ -1,0 +1,19 @@
+{
+  "corpus": [],
+  "mplpb": [],
+  "network": [],
+  "provenance": [
+    "citation",
+    "envelope"
+  ],
+  "replication": [
+    "copy",
+    "fork",
+    "mirror"
+  ],
+  "seed": [],
+  "validation": [
+    "check",
+    "validate"
+  ]
+}
