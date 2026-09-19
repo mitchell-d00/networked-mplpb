@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Network Rules</title>
+<meta name="mplpb:document-id" content="NET-SPEC-002">
+<meta name="mplpb:category" content="Specification / Network">
+<meta name="mplpb:updated" content="2026-09-19T03:16Z v1">
+<meta name="mplpb:scope" content="Routing by declared scope, provenance envelopes, origin depth, supersession across corpora">
+<meta name="mplpb:owner" content="Mitchell D. McPhetridge">
+<meta name="mplpb:when-to-use" content="Routing a query to another corpus; citing a remote page; deciding whether to serve machine-derived material">
+<meta name="mplpb:status" content="current">
+<meta name="mplpb:supersedes" content="">
+<link rel="stylesheet" href="../style.css">
+<link rel="index" href="../index.html">
+<link rel="up" href="./_index.html">
+</head>
+<body>
+<main>
+<p class="eyebrow">MPLPB networked corpus · spec</p>
+<h1>Network Rules</h1>
+
+<div class="record"><dl>
+  <dt>Document ID</dt><dd>NET-SPEC-002</dd>
+  <dt>Category</dt><dd>Specification / Network</dd>
+  <dt>Updated</dt><dd>2026-09-19T03:16Z v1</dd>
+  <dt>Owner</dt><dd>Mitchell D. McPhetridge</dd>
+  <dt>Scope</dt><dd>Routing by declared scope, provenance envelopes, origin depth, supersession across corpora</dd>
+  <dt>Status</dt><dd>current</dd>
+</dl></div>
+
+<h2>Routing</h2>
+<p>Each corpus declares a scope and a list of scope terms drawn from its
+vocabulary. A router scores known corpora by how many query terms (and their
+declared synonyms) appear in each scope. One clear leader owns the query.
+Several close leaders are reported as <em>ambiguous</em>, with their lineage,
+and are never merged. No match is reported as <em>not found in known
+network</em>. A known owner that cannot be reached is reported as
+<em>unavailable</em>; the router does not substitute another corpus's answer.
+A byte-identical mirror of the same corpus ID may serve in its place, and the
+citation still names both the corpus and the machine that served it.</p>
+
+<h2>Provenance envelope</h2>
+<p>Every retrieved page travels with: corpus ID, document ID, version, status,
+origin, origin depth, content hash, the corpus fingerprint, the serving node,
+and the route it took. The content hash must appear in the corpus manifest;
+the fingerprint must appear in the serving node's signed description. A relay
+or cache may add an attestation that it relayed the page. It may not change
+who wrote it.</p>
+
+<h2>Origin depth</h2>
+<p>A human-authored page has depth 0. An unratified machine-produced page has
+depth 1 or more. A page derived from others has depth one greater than the
+deepest of them. Copying machine text verbatim does not reset depth; only a
+recorded ratification (<code>ratified-by</code>, <code>ratified-at</code>)
+does, and the ratification travels with the page. Depth is not truth. It is
+derivational distance. Each node chooses its own maximum depth to serve.</p>
+
+<h2>Supersession across corpora</h2>
+<p>A corpus may supersede only its own documents. A descendant that disagrees
+with its source records <code>diverges-from</code>, not
+<code>supersedes</code>. The source's page stays the source's page.</p>
+
+<nav class="related">
+  <a href="./_index.html">Up to the Sub-Index</a>
+  <a href="../index.html">Back to the Main Index</a>
+</nav>
+</main>
+</body>
+</html>
