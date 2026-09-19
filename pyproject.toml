@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "networked-mplpb"
+version = "0.1.0"
+description = "Grow a knowledge network from a seed: self-describing corpora, signed discovery, declared-scope routing, and verifiable provenance. Standard library only."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Mitchell D. McPhetridge" }]
+keywords = ["mplpb", "local-web", "federated", "provenance", "digital-preservation", "retrieval", "sneakernet", "stateless-ai"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Text Processing :: Indexing",
+  "Topic :: System :: Archiving",
+]
+dependencies = []
+
+[project.optional-dependencies]
+paper = ["reportlab>=3.6"]
+
+[project.urls]
+Homepage = "https://github.com/mitchell-d00/networked-mplpb"
+Issues = "https://github.com/mitchell-d00/networked-mplpb/issues"
+
+[project.scripts]
+mplpb-net = "mplpb_net.__main__:main"
+
+[tool.setuptools]
+packages = ["mplpb_net", "mplpb_net.connectors"]
+
+[tool.setuptools.package-data]
+mplpb_net = ["data/*.css"]
