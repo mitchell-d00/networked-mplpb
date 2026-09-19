@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "nodes": 10,
+      "create_nodes_s": 0.243,
+      "register_all_s": 0.334,
+      "register_per_node_ms": 33.4,
+      "registry_bytes": 14609,
+      "hub_files": 44,
+      "learn_s": 0.081,
+      "route_ms": 1.02,
+      "routing_correct": "10/10"
+    },
+    {
+      "nodes": 40,
+      "create_nodes_s": 1.075,
+      "register_all_s": 1.914,
+      "register_per_node_ms": 47.8,
+      "registry_bytes": 58439,
+      "hub_files": 104,
+      "learn_s": 0.303,
+      "route_ms": 3.56,
+      "routing_correct": "10/10"
+    },
+    {
+      "nodes": 160,
+      "create_nodes_s": 4.124,
+      "register_all_s": 19.235,
+      "register_per_node_ms": 120.2,
+      "registry_bytes": 234299,
+      "hub_files": 344,
+      "learn_s": 1.525,
+      "route_ms": 13.98,
+      "routing_correct": "10/10"
+    }
+  ]
+}
