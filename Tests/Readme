@@ -1,1 +1,6 @@
+python3 -m unittest discover -s Tests -t .
 
+test_ed25519.py     RFC 8032 vectors; tamper rejection
+test_corpus.py      seed validity, growth, supersession, integrity checks, origin depth, replication
+test_network.py     identity, routing, provenance, resilience, HTTP, every configuration key
+test_experiment.py  one full Seed-to-Network run; the CLI end to end
