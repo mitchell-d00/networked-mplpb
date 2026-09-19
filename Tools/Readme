@@ -1,1 +1,2 @@
-
+make_paper.py   Docs/Networked_MPLPB.md -> .txt (stdlib) and .pdf (needs reportlab).
+                The only non-stdlib code in the repository, and it is not part of the package.
