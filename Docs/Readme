@@ -1,1 +1,7 @@
-
+Networked_MPLPB.md    the paper (source). .txt and .pdf are generated from it by
+                      python3 Tools/make_paper.py
+PROTOCOL.md           blind stranger-recovery and ablation protocols (not yet run)
+lineage.md            what came from the draft, the front end, the back end, the review
+results/file/         Seed-to-Network experiment, filesystem transport
+results/http/         Seed-to-Network experiment, HTTP transport
+results/scale/        FM-N15 scale probe
