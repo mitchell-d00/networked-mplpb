@@ -1,0 +1,20 @@
+{
+  "corpus_id": "C-B64CA3EF6BDC",
+  "created": "2026-09-19T03:16Z",
+  "kind": "knowledge",
+  "owner": "Mitchell D. McPhetridge",
+  "protocol": "networked-mplpb/0.1",
+  "relation": "origin",
+  "scope": "The Networked MPLPB corpus format: seeds, validation, replication, network routing, provenance",
+  "scope_terms": [
+    "mplpb",
+    "seed",
+    "corpus",
+    "validation",
+    "provenance",
+    "replication",
+    "network"
+  ],
+  "seeded_from": null,
+  "title": "Networked MPLPB Reference Seed"
+}
