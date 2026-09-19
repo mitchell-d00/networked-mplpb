@@ -1,0 +1,360 @@
+{
+  "transport": "http",
+  "conditions": {
+    "A_seed": {
+      "corpus_id": "C-9699D44D24B7",
+      "fingerprint": "b3abc5ee1649773ba9064566e165043fbefc07e43be0cb898ab749ad3a1165ee",
+      "valid": true
+    },
+    "B_replication": {
+      "mirrors_valid": [
+        true,
+        true,
+        true
+      ]
+    },
+    "C_differentiation": {
+      "descendants_valid": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "corpora": {
+        "SEED": "C-9699D44D24B7",
+        "B": "C-F33C82181676",
+        "C": "C-9723941415D0",
+        "D": "C-5866C2C6B07B",
+        "FORK": "C-761B8F36FDFE"
+      }
+    },
+    "D_discovery": {
+      "hub": "N-6C2E45B5A093BC50",
+      "known_per_node": {
+        "A": 4,
+        "B": 4,
+        "C": 4,
+        "D": 4
+      }
+    },
+    "H_new_generation": {
+      "recovered_properties": {
+        "corpus_id_preserved": true,
+        "fingerprint_preserved": true,
+        "scope_readable": true,
+        "boot_block_present": true,
+        "validation_rules_in_prose": true,
+        "current_vs_retired": true,
+        "supersession_traceable": true,
+        "lineage_chain_verifies": true,
+        "instantiation_guide_present": true,
+        "can_seed_next_generation": true
+      },
+      "hub_rebuilt_from_descriptions": 4
+    }
+  },
+  "metrics": {
+    "routing_accuracy": 1.0,
+    "ambiguity_preservation": 1.0,
+    "absent_reported": 1.0,
+    "provenance_retention": 1.0,
+    "depth_policy_respected": true,
+    "laundering_probe_withheld": true,
+    "supersession_propagated": true,
+    "history_kept_in_cache": true,
+    "offline_retention": 1.0,
+    "offline_remote_reported_unavailable": true,
+    "after_hub_loss_answered": 1.0,
+    "origin_independence": 1.0,
+    "recovery_rate": 1.0,
+    "new_generation_routing": 1.0,
+    "replication_integrity": 1.0
+  },
+  "queries": [
+    {
+      "phase": "E",
+      "query": "how do I validate a copy of the seed corpus?",
+      "expected": "local",
+      "got": "local",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "what does the provenance envelope contain on the network?",
+      "expected": "local",
+      "got": "local",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "bisque firing schedule for a kiln",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "why is my glaze crawling on the ceramic?",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "my bike brakes squeal",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "when should I replace a bicycle chain?",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "pottery furnace temperature",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "hive inspection checklist for honey bees",
+      "expected": "ambiguous",
+      "got": "ambiguous",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": null,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "when to harvest honey from the hive",
+      "expected": "ambiguous",
+      "got": "ambiguous",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": null,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "rooftop hive placement and wind",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 1
+    },
+    {
+      "phase": "E",
+      "query": "sourdough starter hydration",
+      "expected": "not_found",
+      "got": "not_found",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": null,
+      "withheld": 0
+    },
+    {
+      "phase": "E",
+      "query": "tax rules for selling a house",
+      "expected": "not_found",
+      "got": "not_found",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": null,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "how do I validate a copy of the seed corpus?",
+      "expected": "local",
+      "got": "local",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "what does the provenance envelope contain on the network?",
+      "expected": "local",
+      "got": "local",
+      "owner_ok": true,
+      "provenance_ok": null,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "bisque firing schedule for a kiln",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "why is my glaze crawling on the ceramic?",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "my bike brakes squeal",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "when should I replace a bicycle chain?",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "pottery furnace temperature",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "F",
+      "query": "rooftop hive placement and wind",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 1
+    },
+    {
+      "phase": "H",
+      "query": "bisque firing schedule for a kiln",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "H",
+      "query": "why is my glaze crawling on the ceramic?",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "H",
+      "query": "my bike brakes squeal",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "H",
+      "query": "when should I replace a bicycle chain?",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "H",
+      "query": "pottery furnace temperature",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 0
+    },
+    {
+      "phase": "H",
+      "query": "rooftop hive placement and wind",
+      "expected": "remote",
+      "got": "remote",
+      "owner_ok": true,
+      "provenance_ok": true,
+      "served_depth": 0,
+      "withheld": 1
+    }
+  ],
+  "burden": {
+    "stdlib_only": true,
+    "non_stdlib_imports": [],
+    "persistent_services": "one static file server per node (optional)",
+    "administrative_actions": 21,
+    "wall_seconds": 2.93,
+    "cpu_seconds": 2.43,
+    "storage_bytes": {
+      "B": 131455,
+      "C": 128615,
+      "D": 200163,
+      "E": 104127,
+      "E-descendant": 53360,
+      "E-incoming": 52288,
+      "H2": 115524,
+      "offline-copy-B-off": 52288,
+      "offline-copy-B-on": 52288,
+      "offline-desc-B-off": 56025,
+      "offline-desc-B-on": 56025,
+      "sneakernet": 22523
+    },
+    "peak_rss_kb": 30364
+  },
+  "caveat": "Mechanical rehearsal. Corpora, queries, and code share one author; nodes share one machine. This does not test stranger recovery, retrieval quality against a flat baseline, adversarial peers, or scale.",
+  "workdir": null
+}
