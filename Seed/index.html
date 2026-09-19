@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Main Index — Networked MPLPB Reference Seed</title>
+<meta name="mplpb:document-id" content="NET-MAIN-000">
+<meta name="mplpb:category" content="Navigator / Main Index">
+<meta name="mplpb:updated" content="2026-09-19T03:16Z v1">
+<meta name="mplpb:scope" content="Entry point, crawl root, and routing map. Corpus scope: The Networked MPLPB corpus format: seeds, validation, replication, network routing, provenance">
+<meta name="mplpb:owner" content="Mitchell D. McPhetridge">
+<meta name="mplpb:when-to-use" content="First page read in any session; crawl entry point; uncertain which spoke owns a query">
+<meta name="mplpb:status" content="current">
+<meta name="mplpb:supersedes" content="">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<p class="eyebrow">MPLPB networked corpus · crawl root · knowledge</p>
+<h1>Main Index — Networked MPLPB Reference Seed</h1>
+
+<div class="record"><dl>
+  <dt>Document ID</dt><dd>NET-MAIN-000</dd>
+  <dt>Category</dt><dd>Navigator / Main Index</dd>
+  <dt>Updated</dt><dd>2026-09-19T03:16Z v1</dd>
+  <dt>Owner</dt><dd>Mitchell D. McPhetridge</dd>
+  <dt>Scope</dt><dd>Entry point, crawl root, and routing map. Corpus scope: The Networked MPLPB corpus format: seeds, validation, replication, network routing, provenance</dd>
+  <dt>Status</dt><dd>current</dd>
+</dl></div>
+
+<h2>Boot block</h2>
+<div class="boot">
+<p><strong>What this corpus is.</strong> The reference seed for Networked MPLPB. It contains nothing but the rules for being a seed: how to open it, verify it, copy it, declare what the copy is, validate it, and join a network. Every other corpus in the reference experiment grows from a copy of this directory.</p>
+
+<p><strong>Authoritative root.</strong> This file. Every internal link is
+relative to it. The crawl boundary is this directory; a link resolving outside
+it must be rejected.</p>
+
+<p><strong>Identity.</strong> This corpus is identified by the corpus ID in
+<a href="_net/_index.html">_net/</a>, not by where it is stored or which
+machine serves it. Copying it does not copy any machine's identity.</p>
+
+<p><strong>Retrieval rule.</strong> Answer corpus-dependent questions from
+retrieved pages. Prefer <code>status: current</code> pages reachable from this
+index. Cite a page by corpus ID, document ID, version, and status.</p>
+
+<p><strong>Routing.</strong> A router decides where an answer should come from;
+it does not write the answer. If a question belongs to another corpus, say
+which. If several corpora plausibly own it, report the ambiguity. If the owner
+is known but unreachable, say so; never impersonate it.</p>
+
+<p><strong>Provenance.</strong> Anything retrieved from another corpus keeps
+that corpus's identity. Transport is not authorship. Discovery is not
+authority. Caching is not authorship.</p>
+
+<p><strong>Change.</strong> Pages are superseded, never silently overwritten.
+Retired versions live in <code>_log/superseded/</code>. A corpus may only
+supersede its own documents.</p>
+
+<p><strong>How to make another working copy.</strong> See
+<a href="spec/seed.html">spec/seed.html</a>. The rules this corpus must
+satisfy are written out in plain language in
+<a href="spec/validation.html">spec/validation.html</a>, so they can be
+re-implemented without the software that wrote them.</p>
+</div>
+
+<h2>Category map</h2>
+<ul class="map">
+  <li><a href="spec/_index.html">Specification &amp; Network Rules</a>
+    <span class="scope">scope: how this corpus is built, copied, validated, routed, and cited</span></li>
+  <li><a href="_net/_index.html">Corpus Identity</a>
+    <span class="scope">scope: corpus ID, declared scope, vocabulary, lineage, manifest</span></li>
+  <li><a href="_log/revisions.html">Revision log</a>
+    <span class="scope">scope: append-only record of changes and supersessions</span></li>
+<!-- mplpb:entries -->
+</ul>
+
+<nav class="related">
+  <a href="BOOT.md">BOOT.md — plain-text twin of this boot block</a>
+</nav>
+
+</main>
+</body>
+</html>
